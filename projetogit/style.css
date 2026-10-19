@@ -1,7 +1,8 @@
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #333333;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1a1a1a; 
+    color: #ffffff;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -12,22 +13,31 @@ body {
 
 .container {
     max-width: 600px;
-    background-color: #f5f5f5;
+    background-color: #2c1a3a; /* Roxo escuro */
     padding: 30px;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 2px solid #ff6600; /* Borda laranja */
+    box-shadow: 0 0 15px rgba(255, 102, 0, 0.5);
 }
 
 h1 {
-    color: #007bff;
+    color: #ff6600; /* Laranja Halloween */
+    text-shadow: 2px 2px 4px #000000;
 }
 
 button {
-    background-color: #007bff;
-    color: white;
+    background-color: #ff6600;
+    color: #1a1a1a;
+    font-weight: bold;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #e05500;
 }
